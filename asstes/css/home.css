@@ -1,0 +1,862 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fix {
+    position: fixed;
+    background-color: #007CBA;
+    right: 0;
+    bottom: 50px;
+    height: 40px;
+    width: 100px;
+    z-index: 1;
+}
+/* header start */
+.headf {
+    position: absolute;
+    margin-left: 80%;
+    top: 20px;
+}
+
+.header>button {
+    background-color: #007CBA;
+    color: white;
+    height: 22px;
+    margin-top: 19px;
+    margin-left: 94.5%;
+    /* padding: 5px; */
+}
+
+.header>select {
+    height: 30px;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+}
+
+.header1>img {
+    width: 500px;
+    padding: 20px;
+}
+
+.header2>input {
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.icon>i {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+/* header css end */
+
+/* navbar css */
+nav {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nava>a {
+    margin-left: 60px;
+}
+
+.mainhome>img {
+    width: 100%;
+    position: relative;
+}
+
+.homea1,
+.homea2,
+.homea3,
+.homea4 {
+    text-decoration: none;
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+
+.home1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 500px;
+    left: 350px;
+}
+
+.card1arr,
+.card2arr,
+.card3arr,
+.card4arr {
+    color: #007CBA
+}
+
+.card1arr i {
+    color: #007CBA;
+}
+
+.card2arr i {
+    color: #007CBA;
+}
+
+.card3arr i {
+    color: #007CBA;
+}
+
+.card4arr i {
+    color: #007CBA;
+}
+
+.home1>a {
+    color: white;
+}
+
+.card-image1 {
+    height: 120px;
+    width: 200px;
+}
+
+.home2 {
+    width: 94%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.mainhome>p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.homecard1,
+.homecard2,
+.homecard3,
+.homecard4 {
+    border: 2px solid white;
+    width: 16.8%;
+    box-shadow: 2px 3px 5px gray;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.homecard1>p {
+    margin-bottom: 100px;
+}
+
+.homecard1 {
+    margin-left: 80px;
+}
+
+.homecard2,
+.homecard3,
+.homecard4 {
+    margin-left: -80px;
+}
+
+.card2p {
+    margin-bottom: 193px;
+
+}
+
+.card3p {
+    margin-bottom: 155px;
+}
+
+.card4p {
+    margin-bottom: 173px;
+}
+
+
+#homeh1 {
+    color: blue;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#homeh2 {
+    color: green;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+#homeh3 {
+    color: #c83792;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+#homeh4 {
+    color: blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.homefooter {
+    background-color: #a50064;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    height: 300px;
+}
+
+.foot1,
+.foot2,
+.foot3,
+.foot4 {
+    width: 15%;
+    margin-top: 80px;
+}
+
+.foot1>button {
+    background-color: #a50064;
+    padding: 10px;
+    color: white;
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.p1,
+.p2,
+.p3 {
+    font-size: 12px;
+}
+
+#p1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+#p2 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+#p3 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid white;
+}
+
+#fa1 {
+    margin-left: 180px;
+}
+
+#fa2 {
+    margin-left: 68px;
+}
+
+#fa3 {
+    margin-left: 170px;
+}
+
+#homeh5 {
+    color: #63513D;
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+}
+
+.home3 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+.home3>img {
+    padding-left: 20px;
+}
+
+.b1 {
+    color: white;
+    background-color: #007CBA;
+    border-color: white;
+    padding: 8px;
+    margin-left: 580px;
+    margin-bottom: 120px;
+}
+
+i {
+    color: white;
+}
+
+/* <footer css code> */
+
+
+.main {
+    background-color: #007CBA;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.d2>button {
+    width: 150px;
+    height: 30px;
+    color: #007CBA;
+}
+
+.d3>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d5>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d4>img {
+    height: 150px;
+    width: 300px;
+}
+
+.subs {
+    margin-left: 45%;
+    padding: 20px;
+}
+
+.subs>i {
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+
+.subs>h3 {
+    margin-left: 10px;
+}
+
+.i1 {
+    height: 150px;
+    width: 200px;
+}
+
+.sub2main {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+.sub3>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub2 {
+    line-height: 40px;
+}
+
+.sub2>h1 {
+    margin-left: 10px;
+}
+
+.sub2>img {
+    margin-left: -30px;
+}
+
+.sub3 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: rgba(128, 128, 128, 0.386);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.footer>p {
+    border-right: 1px solid;
+    height: 20px;
+}
+
+
+/* <footer css code end> */
+
+/* mobile view  */
+@media screen and (min-width:375px) and (max-width:426px) {
+
+    .mainhome .home-image1 {
+        width: 400%;
+    }
+    .home1 {
+        top: 800px;
+        left: 300px;
+        margin-left: 350px;
+        color: black;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .home1 a {
+        color: black;
+    }
+    .homecard1,
+    .homecard2,
+    .homecard3,
+    .homecard4 {
+        width: 235%;
+        margin-bottom: 30px;
+        margin-left: 150px;
+        font-size: 40px;
+    }
+    .homefooter {
+        margin-top: 200px;
+        width: max-content;
+        width: 364%;
+        height: 120%;
+        display: block;
+        padding-left: 150px;
+        text-decoration: none;
+    }
+
+    .foot1,
+    .foot2,
+    .foot3,
+    .foot4 {
+        margin-left: 100px;
+        width: max-content;
+        width: 50%;
+        font-size: 35px;
+    }
+    .foot2 p,.foot3 p,.foot4 p{
+        font-size: 30px;
+    }
+
+    .foot4 {
+        padding-bottom: 40px;
+    }
+
+    .foot1 {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    .home2 {
+        display: block;
+        margin-top: 400px;
+        width: 133.5%;
+    }
+
+    .homecard1 .card-image1,
+    .homecard2 .card-image1,
+    .homecard3 .card-image1,
+    .homecard4 .card-image1 {
+        height: 50%;
+        width: 100%;
+    }
+    #fa1,
+    #fa2,
+    #fa3 {
+        margin-left: 180px;
+        display: none;
+        
+    }
+
+    #fa2 {
+        margin-left: 420px;
+    }
+    #fa3{
+        margin-left: 260px;
+    }
+    .home3{
+        width: max-content;
+    }
+    .b1{
+        width: 80%;
+        font-size: 30px;
+        padding: 20px 0px;
+        margin-left: 170%;
+    }
+
+    #homeh5 {
+         margin-left: 150px;
+         margin-right: -700px; 
+        font-size: 60px;
+    }
+
+    .headf {
+        margin-left: 320%;
+    }
+
+    .header>button {
+        background-color: #007CBA;
+        color: white;
+        width: 80px;
+        position: absolute;
+        left: 270%;
+    }
+
+    .header2>input {
+        margin-top: 90px;
+        width: 300px;
+        height: 50px;
+        border: none;
+        border-bottom: 2px solid;
+        position: absolute;
+        right: -290%;
+    }
+    .home3{
+        width: 390%;
+    }
+
+    nav {
+        width: 390%;
+        font-size: 20px;
+    }
+
+    .icon>i {
+        position: absolute;
+        top: 110px;
+        z-index: 1;
+        right: -1220px;
+    }
+
+    .main,
+    .sub2main {
+        display: block;
+        font-size: 30px;
+    }
+
+    .main {
+        width: 350%;
+        padding: 50px;
+        font-size: 50px;
+        padding-left: 150px;
+    }
+    .main .d2,.d3,.d4{
+        margin-bottom: 100px;
+    }
+    .main p,.p2,.p3{
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .sub6main {
+        display: none;
+    }
+    .sub2main{
+        margin-left: 80px;
+         width: 280%; 
+        padding: 200px;
+        /* font-size: 30px; */
+    }
+    .sub2,.sub3,.sub4{
+        margin-bottom: 100px;
+    }
+    .subs h3{
+        margin-left: 20px;
+    }
+    .footer {
+        width: 400%;
+        font-size: 25px;
+    } 
+    .subs{
+        width: 100%;
+        margin-left: 200%;
+    }
+}
+
+ /* mobile view end  */
+
+/* tab view  */
+@media screen and (min-width:427px) and (max-width:769px) {
+    .headf {
+        margin-left: 83%;
+    }
+
+    .header button {
+        width: 80px;
+        margin-left: 107%;
+    }
+    .header2>input{
+        margin-left: 70px;
+    }
+    .icon>i{
+        position: absolute;
+        right: -130px;
+        
+    }
+    nav {
+        width: 114%;
+    }
+
+    .nava>a {
+        margin-left: 10px;
+    }
+
+    .home1 {
+        top: 600px;
+        left: 200px;
+        color: black;
+    }
+
+    .home1 a {
+        color: black;
+    }
+
+    .home2 {
+        margin-top: 200px;
+        position: relative;
+    }
+
+    .home2 .homecard1 {
+        margin-left: 300px;
+    }
+
+    .homecard1,
+    .homecard2,
+    .homecard3 {
+        width: min-content;
+        margin-right: 100px;
+        width: 150%;
+    }
+
+    .homecard4 {
+        position: absolute;
+        top: 520px;
+        width: 102%;
+        left: 150px;
+
+    }
+
+    .homecard4 .card-image1 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .homecard4 .card4p {
+        margin-bottom: 2px;
+    }
+
+    .mainhome .home-image1 {
+        width: 120%;
+        padding: 0;
+    }
+
+    .homefooter {
+        margin-top: 600px;
+        width: 120%;
+        height: 120%;
+        display: block;
+    }
+
+    .foot1,
+    .foot2,
+    .foot3,
+    .foot4 {
+        margin-left: 100px;
+        width: max-content;
+        width: 50%;
+        font-size: 20px;
+    }
+
+    .foot4 {
+        padding-bottom: 40px;
+    }
+
+    .foot1 {
+        padding-top: 20px;
+        padding-bottom: 0;
+    }
+
+    #fa1,
+    #fa2,
+    #fa3 {
+        margin-left: 100px;
+        display: none; 
+    }
+
+    #fa2 {
+        margin-left: 260px;
+    }
+
+    .b1 {
+        margin-left: 380px;
+    }
+
+    .main {
+        width: 112%
+    }
+
+    .main .d3 {
+        margin-left: 30px;
+    }
+
+    .main .d2 {
+        margin-left: 20px;
+    }
+
+    .main .d5 {
+        margin-right: 15px;
+    }
+
+    .footer {
+        width: 120%;
+        font-size: 15.9px;
+    }
+
+    .home3 {
+        width: 120%
+    }
+
+    .sub2main {
+        margin-left: 40px;
+    }
+
+    .sub4,
+    .sub3 {
+        margin-right: 30px;
+        margin-left: 40px;
+    }
+
+}
+
+/* laptop view */
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .headf {
+        position: absolute;
+        margin-left: 75.5%;
+        top: 20px;
+    }
+
+    .header>button {
+        background-color: #007CBA;
+        color: white;
+        height: 22px;
+        margin-top: 19px;
+        margin-left: 93%;
+    }
+
+    .nava {
+        padding-left: 10px;
+    }
+
+    .nava>a {
+        margin-left: 0px;
+        padding-right: 15px;
+
+    }
+
+    .home1 {
+        position: absolute;
+        top: 450px;
+        right: 80px;
+        left: -1px;
+    }
+
+    .homecard1 .card-image1,
+    .homecard2 .card-image1,
+    .homecard3 .card-image1,
+    .homecard4 .card-image1 {
+        width: 100%;
+
+    }
+
+    .homecard1,
+    .homecard2,
+    .homecard3 {
+        margin-right: 40px;
+    }
+
+    .homecard2 .card2p {
+        margin-bottom: 250px;
+    }
+
+    .homecard3 .card3p {
+        margin-bottom: 195px;
+    }
+
+    .homecard4 .card4p {
+        margin-bottom: 200px;
+    }
+
+    #fa1,#fa2,#fa3 {
+        margin-left: -1px;
+        display: none;
+    }
+
+    .b1 {
+        margin-left: 500px;
+    }
+
+    .main .d3 {
+        margin-left: 100px;
+    }
+
+    .main .d4 {
+        margin-right: 50px;
+    }
+
+    .sub2main {
+        margin-left: 20px;
+    }
+
+}

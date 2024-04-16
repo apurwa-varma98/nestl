@@ -1,0 +1,824 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header>p{
+    position: absolute;
+    left: 69%;
+    top: 22px;
+}
+.header>h1{
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: #CCCCCC;
+    left: 75%;
+    top: 20px;
+    border-radius: 50px;
+}
+.header>h2{
+    position: absolute;
+    width: 20px;
+    height: 23px;
+    background-color: white;
+    left: 75.2%;
+    top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.headf {
+    position: absolute;
+    margin-left: 82%;
+    top: 20px;
+}
+
+.header>button {
+    background-color: #007CBA;
+    color: white;
+    height: 22px;
+    margin-top: 19px;
+    margin-left: 95%;
+    cursor: pointer;
+}
+
+.header>select {
+    height: 30px;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+}
+
+.header1>img {
+    width: 500px;
+    padding: 20px;
+}
+
+.header2>input {
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.icon>i {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+/* navbar css */
+nav {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nava>a{
+    margin-left: 60px;
+}
+/* navbar css end */
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body>h2 {
+    font-size: 40px;
+    padding-left: 50px;
+}
+
+.body1 {
+    text-align: center;
+}
+
+.body1>i {
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+
+.image {
+    position: relative;
+}
+
+.image>img {
+    width: 100%;
+}
+
+.img {
+    position: absolute;
+    width: 300px;
+    top: 130px;
+    right: 150px;
+}
+
+.img>h2 {
+    color: yellow;
+}
+
+.sub>marquee>img {
+    width: 180px;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+
+.last {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.last1 {
+    width: 373px;
+}
+
+.last1>h2 {
+    background-color: #1C9CC8;
+    height: 50px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.last1>h3 {
+    color: #1C9CC8;
+}
+
+.last2 {
+    width: 373px;
+}
+
+.last2>h2 {
+    background-color: #FB6035;
+    height: 50px;
+    padding-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.last2>h4 {
+    color: #1C9CC8;
+}
+
+.fix {
+    position: fixed;
+    background-color: #007CBA;
+    right: 0;
+    bottom: 50px;
+    height: 40px;
+    width: 100px;
+    z-index: 1;
+}
+
+.impo>h2 {
+    font-size: 40px;
+    margin-top: 50px;
+    padding-left: 30px;
+}
+
+.impo>img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.impo1{
+    position: relative;
+}
+.impo1>a{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /* height: 30px; */
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.322);
+    color: #007CBA;
+    border-radius: 10px;
+}
+.impo1>img{
+    width: 100%;
+}
+.imp {
+    display: flex;
+    margin: 50px;
+}
+
+.imp1>h3 {
+    color: #007CBA;
+}
+
+.imp1 {
+    background-color: rgba(128, 128, 128, 0.275);
+    width: 250px;
+    padding: 10px;
+    height: 180px;
+}
+.koko{
+    width: 373px;
+}
+.imp2>h3 {
+    color: #007CBA;
+}
+
+.imp2 {
+    background-color: rgba(128, 128, 128, 0.275);
+    width: 250px;
+    padding: 10px;
+    height: 150px;
+}
+
+.imp3 {
+    margin-left: 600px;
+}
+
+.ex>img {
+    width: 100%;
+}
+
+.ex1 {
+    font-size: 40px;
+    padding-left: 50px;
+}
+
+.sbu {
+    padding-left: 100px;
+    margin-top: 50px;
+}
+
+.form {
+    width: 80%;
+    margin-left: 100px;
+    padding: 50px;
+    background-color: rgba(128, 128, 128, 0.188);
+}
+
+.form>label,
+input,
+textarea {
+    width: 95%;
+    height: 40px;
+}
+
+.form>button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    background-color: #007CBA;
+    color: white;
+    cursor: pointer;
+}
+
+.last2>iframe {
+    width: 370px;
+    height: 240px;
+}
+
+/* <footer css code> */
+
+
+.main {
+    background-color: #007CBA;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.d2>button {
+    width: 150px;
+    height: 30px;
+    color: #007CBA;
+    cursor: pointer;
+}
+
+.d3>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.d5>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.d4>img {
+    height: 150px;
+    width: 300px;
+}
+
+.subs{
+    margin-left: 45%;
+    padding: 20px;
+} 
+.subs>i{
+    margin: 50px 0px 50px 0px;
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+.subs>h3{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.i1 {
+    height: 150px;
+    width: 200px;
+}
+
+.sub2main {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.sub3>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub4>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub5>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.sub2{
+    line-height: 40px;
+}
+.sub2>h1 {
+    margin-left: 10px;
+}
+
+.sub2>img {
+    margin-left: -30px;
+}
+
+.sub3 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+.footer {
+    background-color: rgba(128, 128, 128, 0.386);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.footer>p{
+    border-right: 1px solid;
+    height: 20px;
+}
+
+
+/* <footer css code end> */
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .headf{
+       margin-left: 780px;
+    }
+    .header>p{
+        margin-left: -200px;
+    }
+    .header>h1{
+        margin-left: -170px;
+    }
+    .header>h2{
+        margin-left: -170px;
+    }
+    .header>button {
+        width: 80px;
+    }
+
+    .header2>input {
+        margin-left: 210px;
+    }
+
+    .icon>i {
+        position: absolute;
+        right: 0px;
+    }
+    .impo1{
+        margin: 20px;
+        margin-left: 50px;
+    }
+    .image>img {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .img {
+        position: absolute;
+        right: 0px;
+    }
+
+    .sub>marquee>img {
+        width: 120px;
+    }
+
+    .sub {
+        margin-left: 25px;
+    }
+
+    .last1 {
+        width: 30%;
+        margin-left: 50px;
+    }
+
+    .last1>img {
+        width: 307px;
+    }
+
+    .last2 {
+        width: 30%;
+    }
+
+    .last2>img {
+        width: 307px;
+    }
+
+    .last2>iframe {
+        width: 307px;
+        height: 200px;
+    }
+
+    .impo>img {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .ex>img {
+        width: 100%;
+        margin-left: 13px;
+    }
+
+    .imp3 {
+        margin-left: 200px;
+    }
+
+    .form {
+        margin-left: 70px;
+    }
+
+    nav {
+        width: 100%;
+    }
+    .nava>a{
+        margin-left: 20px;
+    }
+    .main {
+        margin-left: 40px;
+        margin-top: 40px;
+        padding: 10px;
+    }
+
+    .sub2main {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .sub6main {
+        margin-left: 40px;
+        margin-top: 40px;
+    }
+
+    .footer {
+        width: 103%;
+    }
+}
+
+@media screen and (min-width:427px) and (max-width:769px) {
+    .headf {
+        margin-left: 720px;
+        /* border: 1px solid; */
+    }
+    .header>h1{
+        margin-left: 50px;
+    }
+    .header>h2{
+        margin-left: 51px;
+    }
+    .header>button {
+        width: 80px;
+       margin-left:  900px;
+    }
+
+    .header2>input {
+        margin-left: 150px;
+    }
+
+    .icon>i {
+        position: absolute;
+        right: -200px;
+    }
+    .impo1>img{
+       width: 130%;
+    }
+    .impo1{
+        margin: 20px;
+        margin-left: 30px;
+    }
+    .impo1>a{
+        position: absolute;
+        right: -180px;
+        width: 120px;
+    }
+    .image>img {
+        width: 120%;
+        margin-left: 35px;
+    }
+
+    .img {
+        position: absolute;
+        right: -150px;
+        top: 80px;
+    }
+
+    .sub>marquee {
+        height: 200px;
+        width: 115%;
+        margin-left: 50px;
+    }
+
+    .sub>marquee>img {
+        margin-left: 200px;
+    }
+
+    .imp3 {
+        margin-left: 200px;
+    }
+
+    .last1 {
+        width: 250px;
+        margin-left: 200px;
+    }
+
+    .last1>img {
+        width: 250px;
+    }
+
+    .last2 {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .last2>img {
+        width: 250px;
+    }
+
+    .last2>iframe {
+        width: 250px;
+        height: 165px;
+    }
+
+    .impo>img {
+        width: 120%;
+        margin-left: 35px;
+    }
+
+    .imp1>p {
+        width: 200px;
+    }
+
+    .imp2>p {
+        width: 200px;
+    }
+
+    .ex>img {
+        width: 120%;
+        margin-left: 35px;
+    }
+
+    .form {
+        margin-left: 140px;
+    }
+
+    nav {
+        width: 123%;
+    }
+    .nava>a{
+        margin-left: 15px;
+    }
+    .main {
+        width: 120%;
+        margin-left: 35px;
+        padding: 10px;
+        margin-top: 40px;
+    }
+
+    .sub2main {
+        width: 120%;
+        margin-left: 35px;
+        margin-top: 40px;
+    }
+
+    .sub6main {
+        width: 120%;
+        margin-left: 35px;
+        margin-top: 40px;
+    }
+
+    .footer {
+        width: 128%;
+    }
+    .subs{
+        margin-left: 57%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:426px) {
+    .headf {
+        margin-left: 700px;
+    }
+    .header>p{
+        width: 100px;
+        margin-left: 150px;
+    }
+    .header>h1{
+        margin-left: 220px;
+    }
+    .header>h2{
+        margin-left: 222px;
+    }
+    .header>button {
+        width: 80px;
+        margin-left:  890px;
+    }
+
+    .header2>input {
+        margin-left: 150px;
+    }
+
+    .icon>i {
+        position: absolute;
+        right: -550px;
+    }
+    .impo1>img{
+        width: 245%;
+     }
+     .impo1{
+         margin: 20px;
+         margin-left: 30px;
+     }
+     .impo1>a{
+         position: absolute;
+         right: -500px;
+         width: 120px;
+     }
+    .image>img {
+        width: 215%;
+        margin-left: 35px;
+    }
+
+    .img {
+        position: absolute;
+        right: -500px;
+        top: 80px;
+    }
+
+    .sub>marquee>img {
+        width: 200px;
+    }
+
+    .sub>marquee {
+        height: 200px;
+        width: 210%;
+        margin-left: 40px;
+    }
+
+    .last1 {
+        width: 250px;
+        margin-left: 550px;
+    }
+
+    .last1>img {
+        width: 250px;
+    }
+
+    .last2 {
+        width: 250px;
+        margin-left: 50px;
+    }
+
+    .last2>img {
+        width: 250px;
+    }
+
+    .last2>iframe {
+        width: 250px;
+        height: 165px;
+    }
+
+    .impo>img {
+        width: 215%;
+        margin-left: 35px;
+    }
+
+    .imp3 {
+        margin-left: 200px;
+    }
+
+    .imp1>p {
+        width: 200px;
+    }
+
+    .imp2>p {
+        width: 200px;
+    }
+
+    .ex>img {
+        width: 215%;
+        margin-left: 35px;
+    }
+
+    .form {
+        width: 160%;
+    }
+
+    nav {
+        width: 220%;
+    }
+    .nava>a{
+        margin-left: 15px;
+    }
+    .main {
+        display: block;
+        padding: 50px;
+        margin-top: 40px;
+        font-size: 20px;
+        margin-left: 90px;
+        width: 160%;
+    }
+
+    .d2,
+    .d3,
+    .d4,
+    .d5 {
+        margin-top: 30px;
+    }
+
+    .sub2main {
+        display: block;
+        margin-top: 40px;
+        font-size: 30px;
+        margin-left: 100px;
+        width: 190%;
+    }
+
+    .sub2,
+    .sub3,
+    .sub4,
+    .sub5 {
+        margin-top: 20px;
+        line-height: 50px;
+    }
+    .footer {
+        width: 233%;
+    }
+
+    .subs {
+        width: 120%;
+        margin-left: 100%;
+    }
+}

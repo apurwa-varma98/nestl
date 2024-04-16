@@ -1,0 +1,1027 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header>p {
+    position: absolute;
+    left: 69%;
+    top: 22px;
+}
+
+.header>h1 {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    background-color: #CCCCCC;
+    left: 75%;
+    top: 20px;
+    border-radius: 50px;
+}
+
+.header>h2 {
+    position: absolute;
+    width: 20px;
+    height: 23px;
+    background-color: white;
+    left: 75.2%;
+    top: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.headf {
+    position: absolute;
+    margin-left: 82%;
+    top: 20px;
+}
+
+.header>button {
+    background-color: #007CBA;
+    color: white;
+    height: 22px;
+    margin-top: 19px;
+    margin-left: 95%;
+    cursor: pointer;
+}
+
+.header>select {
+    height: 30px;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+}
+
+.header1>img {
+    width: 500px;
+    padding: 20px;
+}
+
+.header2>input {
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.icon>i {
+    position: absolute;
+    top: 110px;
+    right: 10px;
+}
+
+/* navbar css */
+nav {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nava>a {
+    margin-left: 60px;
+}
+
+/* navbar css end */
+.body>img {
+    position: relative;
+    width: 100%;
+}
+
+.body1 {
+    position: absolute;
+    text-align: center;
+    top: 700px;
+    right: 20%;
+    color: whitesmoke;
+    font-size: 180%;
+}
+
+.para {
+    padding: 20px;
+    margin-left: 30px;
+}
+
+.b1 {
+    background-color: #30261D;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.b2 {
+    background-color: #007CBA;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.b3 {
+    background-color: #D64123;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.b4 {
+    background-color: #2E8025;
+    color: white;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.b5 {
+    background-color: #E8E5E2;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card2 {
+    display: flex;
+}
+
+.card1 {
+    background-color: #2E8025;
+    height: 460px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    width: 680px;
+
+}
+
+.card1>img {
+    width: 680px;
+    height: 300px;
+}
+
+.card1>a {
+    color: white;
+    padding-left: 15px;
+}
+
+.card3>a {
+    color: white;
+    padding-left: 15px;
+}
+
+.card4>a {
+    color: white;
+    padding-left: 15px;
+}
+
+.card3 {
+    background-color: #007CBA;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    width: 340px;
+    height: 460px;
+}
+
+.card3>img {
+    width: 340px;
+    height: 300px;
+}
+
+.card4 {
+    margin-left: 20px;
+    background-color: #D64123;
+    color: white;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    height: 460px;
+    width: 320px;
+}
+
+.card4>img {
+    width: 320px;
+    height: 290px;
+}
+
+.card4>h3,
+p {
+    padding-left: 10px;
+}
+
+.card3>h5,
+p {
+    padding-left: 10px;
+}
+
+.card1>h3,
+p {
+    padding-left: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cards1 {
+    display: flex;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.cards2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.cards11>a {
+    color: white;
+    padding-left: 15px;
+}
+
+.cards12>a {
+    color: white;
+    padding-left: 15px;
+}
+
+.cards22>a {
+    color: white;
+    padding-left: 15px;
+}
+
+.cards23>a {
+    color: white;
+    padding-left: 15px;
+}
+
+.cards11 {
+    background-color: #007CBA;
+    color: white;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.cards11>img {
+    height: 320px;
+}
+
+.cards11>h3 {
+    padding-left: 10px
+}
+
+.cards12 {
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #D64123;
+    color: white;
+    height: 500px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.cards12>h3 {
+    padding-left: 10px
+}
+
+.cards12>img {
+    width: 342px;
+    height: 320px;
+}
+
+.cards22 {
+    background-color: #2E8025;
+    height: 500px;
+    color: whitesmoke;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    width: 340px;
+    margin-right: 30px;
+}
+
+.cards22>h3 {
+    padding-left: 10px;
+}
+
+.cards22>img {
+    width: 340px;
+    height: 320px;
+}
+
+.cards23 {
+    background-color: #007CBA;
+    box-shadow: 2px 2px 5px black;
+    color: white;
+    height: 500px;
+    border-radius: 10px;
+    width: 310px;
+}
+
+.cards23>img {
+    width: 310px;
+    height: 320px;
+}
+
+.cards23>h5 {
+    padding-left: 10px
+}
+
+.bt {
+    text-align: center;
+    background-color: #007CBA;
+    height: 30px;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 95%;
+    margin-left: 35px;
+    cursor: pointer;
+}
+
+.fix {
+    position: fixed;
+    background-color: #007CBA;
+    right: 0;
+    bottom: 50px;
+    height: 40px;
+    width: 100px;
+    z-index: 1;
+}
+
+/* <footer css code> */
+
+
+.main {
+    background-color: #007CBA;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+}
+
+.d2>button {
+    width: 150px;
+    height: 30px;
+    color: #007CBA;
+    cursor: pointer;
+}
+
+.d3>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.d5>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.d4>img {
+    height: 150px;
+    width: 300px;
+}
+
+.sbu {
+    margin-left: 45%;
+    padding: 20px;
+}
+
+.sbu>i {
+    margin: 50px 0px 50px 0px;
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+
+.sbu>h3 {
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.i1 {
+    height: 150px;
+    width: 200px;
+}
+
+.sub2main {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub2>h1 {
+    margin-left: 10px;
+}
+
+.sub2>img {
+    margin-left: -30px;
+}
+
+.sub2 {
+    line-height: 50px;
+
+}
+
+.sub3 {
+    border-top: 1px solid black;
+    line-height: 30px;
+
+}
+
+.sub3>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4 {
+    border-top: 1px solid black;
+    line-height: 30px;
+
+}
+
+.sub5 {
+    border-top: 1px solid black;
+    line-height: 30px;
+
+}
+
+.sub6main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.sub6 {
+    border-top: 1px solid black;
+}
+
+.sub7 {
+    border-top: 1px solid black;
+}
+
+.sub8 {
+    border-top: 1px solid black;
+}
+
+.footer {
+    background-color: rgba(128, 128, 128, 0.386);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.footer>p {
+    border-right: 1px solid;
+    height: 20px;
+}
+
+/* <footer css code end> */
+
+/* <laptap view> */
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .headf {
+        margin-left: 73%;
+    }
+
+    .header>p {
+        margin-left: -200px;
+    }
+
+    .header>h1 {
+        margin-left: -170px;
+    }
+
+    .header>h2 {
+        margin-left: -170px;
+    }
+
+    .header>button {
+        width: 80px;
+        margin-left: 930px;
+    }
+
+    .header2>i {
+        margin-left: 135%;
+    }
+
+    .body1 {
+        position: absolute;
+        font-size: 20px;
+        top: 600px;
+    }
+
+    .butt>button {
+        width: 170px;
+    }
+
+    .card1 {
+        width: 300px;
+        height: 470px;
+    }
+
+    .card1>img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card3 {
+        width: 300px;
+        height: 470px;
+
+    }
+
+    .card3>img {
+        width: 300px;
+    }
+
+    .card4 {
+        width: 300px;
+        height: 470px;
+    }
+
+    .card4>img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .cards11 {
+        width: 200px;
+        height: 400px;
+    }
+
+    .cards11>img {
+        width: 200px;
+        height: 220px;
+    }
+
+    .cards12 {
+        margin-left: 50px;
+        width: 200px;
+        height: 400px;
+    }
+
+    .cards12>img {
+        width: 200px;
+        height: 205px;
+    }
+
+    .cards22 {
+        margin-left: -30px;
+        width: 200px;
+        height: 400px;
+    }
+
+    .cards22>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cards23 {
+        margin-left: 30px;
+        width: 200px;
+        height: 400px;
+    }
+
+    .cards23>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .main {
+        width: 89%;
+        margin-left: 30px;
+    }
+
+    .sub2main {
+        width: 95%;
+        margin-left: 30px;
+    }
+
+    .sub2 {
+        line-height: 40px;
+    }
+
+    .nava>a {
+        margin-left: 20px;
+    }
+}
+
+/* <tab view> */
+@media screen and (min-width:427px) and (max-width:769px) {
+    .headf {
+        margin-left: 100%;
+    }
+
+    .header>h1 {
+        margin-left: 50px;
+    }
+
+    .header>h2 {
+        margin-left: 51px;
+    }
+
+    .header>button {
+        width: 80px;
+        margin-left: 950px;
+    }
+
+    .header2>input {
+        margin-left: 60%;
+        position: relative;
+    }
+
+    .icon>i {
+        position: absolute;
+        z-index: 1;
+        right: -250px;
+    }
+
+    nav {
+        width: 130%;
+    }
+
+    .nava>a {
+        margin-left: 20px;
+    }
+
+    .body {
+        position: relative;
+    }
+
+    .body>img {
+        width: 137%;
+    }
+
+    .body1 {
+        position: absolute;
+        top: 300px;
+        font-size: 20px;
+    }
+
+    .para {
+        width: 120%;
+    }
+
+    .butt {
+        width: 120%;
+    }
+
+    .butt>button {
+        width: 150px;
+    }
+
+    .card1 {
+        margin-left: 280px;
+        width: 300px;
+        height: 500px;
+    }
+
+    .card1>img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .card3 {
+        width: 300px;
+        height: 500px;
+        margin-left: 20px;
+    }
+
+    .card3>img {
+        width: 300px;
+    }
+
+    .card4 {
+        width: 300px;
+        height: 500px;
+    }
+
+    .card4>img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .cards11 {
+        width: 200px;
+        height: 400px;
+        margin-left: 280px;
+    }
+
+    .cards11>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cards12 {
+        margin-left: 50px;
+        width: 200px;
+        height: 400px;
+    }
+
+    .cards12>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cards22 {
+        width: 200px;
+        height: 400px;
+        margin-left: 50px;
+    }
+
+    .cards22>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .cards23 {
+        margin-left: 30px;
+        width: 200px;
+        height: 400px;
+    }
+
+    .cards23>img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .bt {
+        width: 125%;
+        margin-left: 45px;
+    }
+
+    .main {
+        width: 125%;
+        margin-left: 40px;
+        padding: 10px;
+    }
+
+    .sub2 {
+        line-height: 40px;
+    }
+
+    .sub2main {
+        width: 125%;
+        margin-left: 40px;
+    }
+
+    .sub6main {
+        width: 125%;
+        margin-left: 40px;
+    }
+
+    .footer {
+        width: 136%;
+    }
+
+    .sbu {
+        margin-left: 60%;
+    }
+}
+
+/* <mobile view> */
+@media screen and (min-width:375px) and (max-width:426px) {
+    .headf {
+        margin-left: 650px;
+    }
+
+    .header>p {
+        width: 100px;
+        margin-left: 150px;
+    }
+
+    .header>button {
+        width: 80px;
+        margin-left: 850px;
+    }
+
+    .header>h1 {
+        margin-left: 220px;
+    }
+
+    .header>h2 {
+        margin-left: 222px;
+    }
+
+    .header2>input {
+        position: relative;
+        margin-left: 90px;
+    }
+
+    .icon>i {
+        position: absolute;
+        z-index: 1;
+        right: -500px;
+    }
+
+    .body>img {
+        width: 230%;
+    }
+
+    .body1 {
+        top: 550px;
+        left: 50px;
+        width: 500px;
+        font-size: 15px;
+    }
+
+    .para {
+        width: 200%;
+    }
+
+    .butt {
+        width: 200%;
+    }
+
+    .butt>button {
+        width: 140px;
+    }
+
+    .card1 {
+        width: 800px;
+        position: relative;
+        left: 270px;
+    }
+
+    .card1>img {
+        width: 750px;
+        height: 300px;
+    }
+
+    .card3 {
+        position: absolute;
+        margin-top: 20px;
+        top: 1380px;
+        left: 100px;
+        height: 450px;
+    }
+
+    .card4 {
+        position: absolute;
+        margin-top: 20px;
+        top: 1380px;
+        left: 500px;
+        height: 450px;
+        width: 340px;
+    }
+
+    .card4>img {
+        width: 340px;
+        height: 300px;
+    }
+
+    .cards11 {
+        position: absolute;
+        top: 1900px;
+        left: 100px;
+        width: 340px;
+    }
+
+    .cards11>img {
+        width: 340px;
+        height: 300px;
+    }
+
+    .cards12 {
+        position: absolute;
+        top: 1900px;
+        left: 500px;
+        width: 340px;
+    }
+
+    .cards12>img {
+        width: 340px;
+    }
+
+    .cards22 {
+        position: absolute;
+        top: 2430px;
+        left: 100px;
+    }
+
+    .cards23 {
+        position: absolute;
+        top: 2430px;
+        left: 520px;
+        width: 340px;
+    }
+
+    .cards23>img {
+        width: 340px;
+    }
+
+    .bt {
+        position: absolute;
+        top: 2950px;
+        left: 50px;
+        width: 180%;
+    }
+
+    nav {
+        width: 220%;
+    }
+
+    .nava>a {
+        margin-left: 15px;
+    }
+
+    .main {
+        position: absolute;
+        top: 3050px;
+        left: 90px;
+        width: 170%;
+        display: block;
+        padding: 20px;
+        font-size: 20px;
+    }
+
+    .sub2main {
+        position: absolute;
+        top: 3700px;
+        left: 90px;
+        width: 170%;
+        display: block;
+        padding: 20px;
+        font-size: 30px;
+
+    }
+
+    .sub2,
+    .sub3,
+    .sub4,
+    .sub5 {
+        margin-top: 40px;
+        /* line-height: 40px; */
+    }
+
+    .footer {
+        position: absolute;
+        top: 6450px;
+        width: 230%;
+    }
+
+    .sbu {
+        position: absolute;
+        top: 6200px;
+        left: 200px;
+        width: 100%;
+    }
+}

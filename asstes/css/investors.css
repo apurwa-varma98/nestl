@@ -1,0 +1,574 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fix {
+    position: fixed;
+    background-color: #007CBA;
+    right: 0;
+    bottom: 50px;
+    height: 40px;
+    width: 100px;
+    z-index: 1;
+}
+.headf {
+    position: absolute;
+    margin-left: 75%;
+    top: 20px;
+}
+
+.header>button {
+    background-color: #007CBA;
+    color: white;
+    height: 22px;
+    width: 80px;
+    margin-top: 19px;
+    margin-left: 93%;
+}
+
+.header>select {
+    height: 30px;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+}
+
+.header1>img {
+    width: 500px;
+    padding: 20px;
+}
+
+.header2>input {
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+}
+.hh{
+    width: 96%;
+}
+.icon>i {
+    position: absolute;
+    top: 110px;
+    left: 1400px;
+}
+
+/* <---header end---> */
+
+/* navbar css */
+.navv{
+    width: 94%;
+}
+nav {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nava>a{
+    margin-left: 60px;
+}
+/* navbar css end */
+
+
+.im{
+    width: 94%;
+}
+.aa>img{
+    margin-left: 50px;
+}
+.aa{
+    width: 94%;
+}
+.kk{
+    width: 96%;
+}
+.invmain{
+     display: flex;
+     flex-direction: row;
+     color: white;
+     margin-left: 100px;
+}
+.invma{
+    margin-left: -80px;
+    display: flex;
+    justify-content: space-around;
+}
+.invsu{
+    margin-left: -80px;
+
+    display: flex;
+    justify-content: space-around;
+}
+.one{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+.two{
+    background-color: green;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.three{
+    background-color: blue;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.invsub{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 100px;
+}
+
+.four{
+    background-color:blue;
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.five{
+    background-color: rgb(0, 11, 128);
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.six{
+    background-color: rgb(29, 79, 4);
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+    
+}
+
+.invsub2{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-left: 100px;
+}
+.invsub6{
+    margin-left: 100px;
+}
+.seven{
+    background-color: rgb(29, 79, 4);
+    height: 100px;
+    width: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: 80px;
+}
+a:hover{
+    color: white;
+}
+a{
+    color: white;
+}
+
+.Ih{
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.l1,.l2,.l3,.l4,.l5{
+    margin-left: 50px; 
+    font-size: 20px;
+    margin-bottom:30px ;
+}
+
+.invsub3{
+    width: 50%;
+}
+.invsub3>h1{
+    margin: 50px;
+    
+}
+/* <footer css code> */
+
+
+.main {
+    background-color: #007CBA;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.ss{
+    width: 90%;
+    margin-left: 50px;
+}
+.d2>button {
+    width: 150px;
+    height: 30px;
+    color: #007CBA;
+}
+
+.d3>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d5>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d4>img {
+    height: 150px;
+    width: 300px;
+}
+
+.subs{
+    margin-left: 45%;
+    padding: 20px;
+} 
+.subs>i{
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+.subs>h3{
+    margin-left: 10px;
+}
+
+.i1 {
+    height: 150px;
+    width: 200px;
+}
+
+.sub2main {
+    width: 90%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.sub3>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub4>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub5>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.sub2{
+    line-height: 40px;
+}
+.sub2>h1 {
+    margin-left: 10px;
+}
+
+.sub2>img {
+    margin-left: -30px;
+}
+
+.sub3 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+.footer {
+    background-color: rgba(128, 128, 128, 0.386);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.footer>p{
+    border-right: 1px solid;
+    height: 20px;
+}
+
+
+/* <footer css code end> */
+@media screen and (min-width:770px) and (max-width:1025px) {
+   
+ /* .headf{
+    margin-left: 128%;
+ }  
+ .header>button{
+    width: 80px;
+    margin-left: 155%;
+ }
+ .header2>input{
+    margin-left: 750px;
+ }
+ .icon>i{
+    margin-left: 150px;
+ }
+ .invmain{
+    margin-right: 100px;
+ }
+ .invsub{
+    margin-right: 100px;
+ }
+ .navv{
+    width: 500%;
+ }
+ .im{
+    width: 1400%;
+ }
+ 
+ .invsub3 li{
+    font-size: 30px;
+ }
+ .invsub3{
+    width: 140%;
+ }
+ .footm{
+    width: 150%;
+ }
+ .ff{
+    width: 160%;
+ }
+ .subs{
+    margin-left: 70%;
+ } */
+}
+
+@media screen and (min-width:427px) and (max-width:769px) {
+    .header{
+       margin-left: -80px;
+    }   
+    .header>button{
+        position: absolute;
+        width: 80px;
+        margin-left: 815px;
+    }
+    
+    }
+    .icon>i{
+        /* position: absolute; */
+        margin-left:-600px;
+    }
+    nav{
+        width: 110%;
+    }
+    .nava>a{
+        margin-left: 5px;
+    }
+    .invimg{
+        width: 100%;
+        margin-left: 15px;
+    }
+    .main{
+        margin-left: 20px;
+         padding: 20px;
+         width: 100%;
+         
+    }
+    .seven{
+        margin-bottom: 20px;
+        margin-left: -450px;
+        width: 200px;
+
+    }
+    
+     .invsub{
+        margin-right: 100px;
+     }
+     .navv{
+        width: 149%;
+     }
+     .im{
+        width: 149%;
+     }
+     .invmain,.invsub,.invsub2{
+        width: 250%;
+        margin-right: 100px;
+     }
+     .invsub3 li{
+        font-size: 30px;
+     }
+     .invsub3{
+        width: 140%;
+     }
+     .footm{
+        width: 150%;
+     }
+     .ff{
+        width: 160%;
+     }
+     .ss{
+        margin-left: 1px;
+        width: 100%;
+     }
+     .three{
+        margin-right: 10px;
+     }
+     .six{
+        margin-right:10px;
+     }
+    .sub2main{
+        margin-left: 40px;
+    }
+    .sub6main{
+        margin-left: 40px;
+    }
+    .footer{
+        font-size: 10px;
+        width: 96%;
+        margin-left: 20px;
+    }
+     
+   
+   @media screen and (min-width:375px) and (max-width:426px) {
+    .headf{
+       margin-left: 600px;
+    }   
+    .header>button{
+        width: 80px;
+        margin-left: 800px;
+    }
+    .icon>i{
+        /* position: absolute; */
+        margin-left: -540px;
+    }
+    .header2>input{
+        margin-left: 50px;
+    }
+    nav{
+        width: 210%;
+    }
+    .invimg{
+        width: 200%;
+        margin-left: 15px;
+    }
+    .invma{
+        width: 200%;
+        margin-left: -40px;
+        
+    }
+    .invsu{
+        width: 200%;
+        margin-left: -40px;
+    }
+    .invsu{
+        width: 200%;
+        margin-left: -40px;
+    }
+    
+    .invsub3{
+        
+        
+        
+        font-size: 15px;
+    }
+    .sub4{
+        font-size: 15px;
+    }
+    .sub5{
+        font-size: 15px;
+    }
+    .sub3{
+        font-size: 15px;
+    }
+    .sub2{
+        font-size: 15px;
+    }
+    .main{
+        display: block;
+        width: 150%;
+        margin-left: 150px;
+        padding: 20px;
+        font-size: 10px;
+    }
+    .sub6main{
+        display: none;
+    }
+    .sub2main{
+        display: block;
+        width: 130%;
+        margin-left: 150px;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .footer{
+        width: 210%;
+        margin-left: 1px;
+    }
+    .subs{
+        margin-left:380px;
+        width: 100%;
+    }
+    .invsub6{
+        width: 150%;
+    }
+    .footer{
+        width: 210%;
+    }
+   }

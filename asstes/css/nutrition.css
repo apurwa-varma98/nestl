@@ -1,0 +1,354 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.fix {
+    position: fixed;
+    background-color: #007CBA;
+    right: 0;
+    bottom: 50px;
+    height: 40px;
+    width: 100px;
+    z-index: 1;
+}
+.headf {
+    position: absolute;
+    margin-left: 79%;
+    top: 30px;
+}
+
+.header>button {
+    background-color: #007CBA;
+    color: white;
+    height: 22px;
+    margin-top: 27px;
+    margin-left: 95%;
+}
+
+.header>select {
+    height: 30px;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+}
+
+.header1>img {
+    width: 500px;
+    padding: 20px;
+}
+
+.header2>input {
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.icon>i {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+/* navbar css */
+nav {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nava>a{
+    margin-left: 60px;
+}
+/* navbar css end */
+.b{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.c{
+    margin-left: 50px;
+}
+.a{
+    margin-left: 50px;
+}
+.health1{
+    position: relative;
+}
+.health1>img{
+    margin-top: 50px;
+    width: 200px;
+
+}
+.health{
+    display: flex;
+    justify-content: space-around
+}
+.health1>p{
+    position: absolute;
+    bottom: -18px;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.235);
+}
+/* <footer css code> */
+
+
+.main {
+    background-color: #007CBA;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.d2>button {
+    width: 150px;
+    height: 30px;
+    color: #007CBA;
+}
+
+.d3>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d5>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d4>img {
+    height: 150px;
+    width: 300px;
+}
+
+.subs{
+    margin-left: 45%;
+    padding: 20px;
+} 
+.subs>i{
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+.subs>h3{
+    margin-left: 10px;
+}
+
+.i1 {
+    height: 150px;
+    width: 200px;
+}
+
+.sub2main {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.sub3>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub4>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub5>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.sub2{
+    line-height: 40px;
+}
+.sub2>h1 {
+    margin-left: 10px;
+}
+
+.sub2>img {
+    margin-left: -30px;
+}
+
+.sub3 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+.footer {
+    background-color: rgba(128, 128, 128, 0.386);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.footer>p{
+    border-right: 1px solid;
+    height: 20px;
+    margin-top: -2px;
+}
+
+
+
+/* <footer css code end> */
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .headf{
+margin-left: 700px;
+    }
+    .header button{
+        width: 80px;
+        margin-top: 30px;
+        margin-left: 900px;
+    }
+    .nava a{
+        margin-left: 10px;
+    }
+    .a{
+        margin-left: 90px;
+    }
+    .footer>p{
+        margin-top: -2px;
+    }
+    
+
+}
+@media screen and (min-width:427px) and (max-width:769px) {
+    .headf{
+        margin-left: 550px;
+
+}
+.header button{
+    margin-top: 30px;
+    width: 80px;
+    margin-left: 750px;
+}
+.icon>i{
+    position: absolute;
+    right: -80px;
+}
+nav{
+    width: 106%;
+}
+.nava a{
+    margin-left: 5px;
+}
+.nava{
+    width: 800px;
+}
+.nave{
+    margin-top: 7px;
+    display: flex;
+}
+.b{
+    margin-left: 100px;
+}
+.health{
+    margin-left: 90px;
+}.main{
+    width: 100%;
+    margin-left: 15px;
+}.sub2main{
+    width: 100%;
+    margin-left: 50px;
+}
+.footer{
+    width: 112%;
+}
+.footer>p{
+    margin-top: -2px;
+}
+
+
+}
+@media screen and (min-width:375px) and (max-width:426px) {
+    .headf{
+        margin-left: 550px;
+    }
+    .header button{
+        width: 80px;
+        margin-top: 28px;
+        margin-left: 750px;
+    }
+    .icon>i{
+        position: absolute;
+        right: -420px;
+    }
+    nav{
+        width: 190%;
+    }
+    .nava a{
+        margin-left: 5px;
+    }
+    .nave{
+        margin-top: 7px;
+    }
+    .b{
+        width: 150%;
+        margin-left: 110px;
+    }
+    .health{
+        width: 150%;
+        margin-left: 115px;
+    }
+    .main{
+        display: block;
+        width: 170%;
+        margin-left: 40px;
+    }
+    .sub2main{
+        display: block;
+        width: 170%;
+        margin-left: 50px;
+    }
+    .subs{
+        width: 100%;
+        margin-left: 380px;
+    }
+    .footer{
+        width: 205%;
+    }
+    .footer>p{
+        margin-top: -2px;
+    }
+    
+}

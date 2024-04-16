@@ -1,0 +1,527 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fix {
+    position: fixed;
+    background-color: #007CBA;
+    right: 0;
+    bottom: 50px;
+    height: 40px;
+    width: 100px;
+    z-index: 1;
+}
+/* header start */
+.headf {
+    position: absolute;
+    margin-left: 80%;
+    top: 20px;
+}
+
+.header>button {
+    background-color: #007CBA;
+    color: white;
+    height: 22px;
+    margin-top: 19px;
+    margin-left: 94.5%;
+    /* padding: 5px; */
+}
+
+.header>select {
+    height: 30px;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+}
+
+.header1>img {
+    width: 500px;
+    padding: 20px;
+}
+
+.header2>input {
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.icon>i {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+/* header css end */
+
+/* navbar css */
+nav {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nava>a{
+    margin-left: 60px;
+}
+/* navbar css end */
+
+
+.margin{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.aboutus-image {
+    width: 100%;
+    height: 400px;
+}
+
+.aboutus-image2 {
+    width: 100%;
+    height: 800px;
+}
+
+.aboutus-h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #63513D;
+    font-size: 40px;
+}
+
+.aboutus-h3 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.aboutus-p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+}
+
+.aboutus-main {
+    padding: 25px;
+}
+
+.aboutus-main1 {
+
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.aboutus-card1 {
+    background-color: #007CBA;
+    margin-left: 20px;
+    height: 200px;
+    width: 400px;
+    border-radius: 7px;
+    box-shadow: 5px 10px 5px grey;
+    padding: 25px;
+}
+
+.aboutus-card2 {
+    background-color: rgb(226, 16, 16);
+    margin-left: 20px;
+    height: 200px;
+    width: 400px;
+    border-radius: 7px;
+    padding:25px;
+    box-shadow: 5px 10px 5px grey;
+}
+
+.aboutus-card3 {
+    background-color: goldenrod;
+    margin-left: 20px;
+    height: 200px;
+    width: 400px;
+    border-radius: 7px;
+    padding: 25px;
+    box-shadow: 5px 10px 5px grey;
+}
+
+.aboutus-l1 {
+    color: red;
+}
+
+.aboutus-ul1 {
+    margin-left: 350px;
+}
+
+.aboutus-l2 {
+    color: blue;
+}
+
+.aboutus-ul,
+.aboutus-ul1 {
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aboutus-card4 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    font-size: 20px;
+}
+/* <footer css code> */
+
+
+.main {
+    background-color: #007CBA;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.d2>button {
+    width: 150px;
+    height: 30px;
+    color: #007CBA;
+}
+
+.d3>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d5>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d4>img {
+    height: 150px;
+    width: 300px;
+}
+
+.subs{
+    margin-left: 45%;
+    padding: 20px;
+} 
+.subs>i{
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+.subs>h3{
+    margin-left: 10px;
+}
+
+.i1 {
+    height: 150px;
+    width: 200px;
+}
+
+.sub2main {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+.sub3>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub4>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+}
+.sub5>ul>h3{
+    margin-top: 50px;
+    border-top: 1px solid black;  
+    line-height: 30px;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.sub2{
+    line-height: 40px;
+}
+.sub2>h1 {
+    margin-left: 10px;
+}
+
+.sub2>img {
+    margin-left: -30px;
+}
+
+.sub3 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+.footer {
+    background-color: rgba(128, 128, 128, 0.386);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+.footer>p{
+    border-right: 1px solid;
+    height: 20px;
+}
+
+
+/* <footer css code end> */
+/* laptop view */
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .headf {
+        position: absolute;
+        margin-left: 79%;
+        top: 20px;
+    }
+    
+    .header>button {
+        background-color: #007CBA;
+        color: white;
+        height: 22px;
+        margin-top: 19px;
+        margin-left: 93%;
+        /* padding: 5px; */
+    }
+
+    .aboutus-card4 {
+        font-size: 17px;
+        margin-left: 100px;
+    }
+    
+    .nava{
+        padding-left: 10px;
+    }
+    .nava>a{
+         margin-left: 0px;
+         padding-right: 15px;   
+        
+    }
+    .header{
+        margin-left: -40px;
+    }
+    .header>button {
+        background-color: #007CBA;
+        color: white;
+        height: 30px;
+        margin-right: -30px;
+}
+}
+
+/* tab view */
+@media screen and (min-width:427px) and (max-width:769px) {
+    .nava{
+        padding-left: 10px;
+    }
+    .nava>a{
+         margin-left: 0px;
+         padding-right: 15px;   
+    }
+    .headf {
+        position: absolute;
+        margin-left: 1%;  
+        top: 20px;
+    }
+    
+    .header>button {
+        background-color: #007CBA;
+        color: white;
+        height: 22px;
+        margin-top: 19px;
+        margin-left: 80%;
+    }
+    .header2>input{
+        width: 200px;
+    }
+    .header{
+        margin-left: 530px;
+    }
+    .aboutus-main1{
+      position: relative;
+    }
+    .aboutus-card1,.aboutus-card2,.aboutus-card3{
+        /* padding-right: 100px; */
+        width: 200px;
+    }
+    #aboutus-h1{
+        margin-top: 300px;
+    }
+    .aboutus-card3{
+        position: absolute;
+        top: 270px;
+    }
+
+    .aboutus-card4 {
+        font-size: 10px;
+        margin-left: 100px;
+    }
+    nav{
+        width: 94.5%;
+        font-size: 12px;
+    }
+    .main{
+        padding-left: 30px;
+    }
+    .sub2main,.sub,.sub6main{
+        padding-left: 5px;
+    }
+    .footer{
+        font-size: 10px;
+        
+    }
+
+}
+
+/* mobile view */
+@media screen and (min-width:375px) and (max-width:426px) {
+    .nava{
+        padding-left: 10px;
+    }
+    .nava>a{
+         margin-left: 0px;
+         padding-right: 15px;   
+        
+    }
+    nav{
+        font-size: 15px;
+        width: 205%;
+    }
+    .headf {
+        position: absolute;
+        margin-left: 1%;  
+        top: 20px;
+    }
+    
+    .header>button {
+        background-color: #007CBA;
+        color: white;
+        height: 22px;
+        margin-top: 19px;
+        margin-left: 40%;
+    }
+    .aboutus-image {
+        width: 380%;
+    }
+
+    .aboutus-p {
+        width: 380%;
+    }
+
+    .aboutus-image2 {
+        width: 320%;
+    }
+
+    .aboutus-card1,.aboutus-card2,.aboutus-card3 {
+        margin-bottom: 50px;
+        padding-bottom: 100px;
+        width: 92%;
+    }
+    .aboutus-main1 {
+        width: max-content;
+        display: block;
+    }
+
+    .aboutus-h3 {
+        margin-left: 50px;
+        margin-right: -200px;
+    }
+
+    .aboutus-card4 {
+        font-size: 20px;
+        width: max-content;
+    }
+
+    .aboutus-ul1 {
+        margin-left: 5px;
+    }
+    .header{
+        margin-left: 650px;
+    }
+    .header>button{
+        position: absolute;
+        width: 80px;
+    }
+    .header2>input{
+        position: absolute;
+        right: -450px;
+    }
+    .icon>i{
+        position: absolute;
+        right: -450px;
+    }
+    .main,.sub2main{
+        display: block;
+    }
+    .main{
+        /* margin-left: 100px; */
+         width: 167%; 
+        padding: 100px;
+        font-size: 30px; 
+    }
+    .main>.d2,.d3,.d4{
+        margin-bottom: 50px;
+    }
+    .sub6main{
+        display: none;
+    }
+    .sub2main{
+        margin-left: 80px;
+        width: 140%;
+        padding: 50px;
+        font-size: 30px;
+    }
+    .sub2,.sub3,.sub4{
+        margin-bottom: 20px;
+    }
+    .subs{
+        margin-left: 250px;
+        margin-right: -500px;
+        font-size: 30px;
+    }
+    .subs>i{
+        padding: 30px;
+    }
+    .subs>h3{
+        font-size: 50px;
+        margin-left: 50px;
+    }
+    .footer{
+        width: 215%;
+    }
+}

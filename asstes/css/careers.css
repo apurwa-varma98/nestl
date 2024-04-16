@@ -1,0 +1,806 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fix {
+    position: fixed;
+    background-color: #007CBA;
+    right: 0;
+    bottom: 50px;
+    height: 40px;
+    width: 100px;
+    z-index: 1;
+}
+.headf {
+    position: absolute;
+    margin-left: 83%;
+    top: 20px;
+}
+
+.header>button {
+    background-color: #007CBA;
+    color: white;
+    height: 22px;
+    margin-top: 19px;
+    margin-left: 95%;
+}
+
+.header>select {
+    height: 30px;
+}
+
+.header1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header3 {
+    display: flex;
+}
+
+.header1>img {
+    width: 500px;
+    padding: 20px;
+}
+
+.header2>input {
+    margin-top: 90px;
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.icon>i {
+    position: absolute;
+    top: 110px;
+    right: 20px;
+}
+
+/* navbar css */
+nav {
+    background-color: whitesmoke;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nava>a {
+    margin-left: 60px;
+}
+
+/* navbar css end */
+
+.careerimg2 {
+    position: relative;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 40px;
+}
+
+.careerp1 {
+    position: absolute;
+    bottom: 210px;
+    left: 380px;
+    color: rgb(18, 2, 2);
+    font: bold;
+    font-size: 50px;
+}
+
+.careerp2 {
+    position: absolute;
+    bottom: 160px;
+    left: 550px;
+    color: rgb(18, 2, 2);
+    font: bold;
+    font-size: 50px;
+}
+
+.careertwo {
+    direction: flex;
+    flex-direction: row;
+    /* padding: 100px ; */
+
+}
+
+.careerh1 {
+    margin-left: 40px;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+.careertwo>img {
+    height: 80px;
+    width: 10%;
+    /* padding: 95px; */
+    margin-left: 130px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.careermain {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.careerthree {
+    color: blue;
+    height: 150px;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 40px;
+
+}
+
+.careerfour {
+    color: purple;
+    height: 200px;
+    width: 250px;
+    margin-left: 180px;
+    margin-top: 150px;
+}
+
+.careerfive {
+    color: brown;
+    height: 150px;
+    width: 150px;
+    margin-left: 180px;
+    margin-top: 80px;
+
+}
+
+.careersix {
+    color: green;
+    height: 150px;
+    width: 150px;
+    margin-left: 180px;
+    margin-top: 100px;
+    margin-right: 100px;
+
+}
+
+.careerimg12 {
+    position: relative;
+    width: 95%;
+    margin-top: 85px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+
+.careerh {
+    position: absolute;
+    top: 1800px;
+    left: 450px;
+    font-size: 60px;
+    color: white;
+}
+
+
+.careercd {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+}
+
+.careercd1 {
+    box-shadow: 2px 3px 5px black;
+
+}
+
+.careercd1>img {
+    width: 258px;
+    height: 258px;
+}
+
+.careercd1>h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.careercd1>a {
+    margin-left: 20px;
+    color: #007CBA;
+    margin-bottom: 40px;
+}
+
+.careercd1>i {
+    color: #007CBA;
+    margin-bottom: 40px;
+}
+
+
+.careercdtwo {
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    /* background-color: white; */
+    /* border: 1px solid white; */
+}
+
+.careercd2 {
+    box-shadow: 2px 3px 5px black;
+
+}
+
+.careercd2>img {
+    width: 258px;
+    height: 258px;
+}
+
+.careercd2>h1 {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.careercd2>a {
+    margin-left: 20px;
+    color: #007CBA;
+    margin-bottom: 40px;
+}
+
+.careercd2>i {
+    color: #007CBA;
+    margin-bottom: 40px;
+}
+
+.bt {
+
+    justify-content: space-around;
+    margin-left: 670px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    padding: 10px;
+
+}
+
+.group {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.careervh {
+    margin-bottom: 100px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+iframe {
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+/* .images{
+display: flex;
+justify-content: space-around;
+width: 100%;
+height: 500px; 
+overflow:scroll;
+margin-left: 500px;
+margin-bottom: 50px;  */
+
+.images>img {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+}
+
+/* <footer start> */
+
+.main {
+    background-color: #007CBA;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    line-height: 40px;
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.d2>button {
+    width: 150px;
+    height: 30px;
+    color: #007CBA;
+}
+
+.d3>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d5>button {
+    background-color: #007CBA;
+    width: 150px;
+    height: 30px;
+    color: white;
+    border: 1px solid white;
+}
+
+.d4>img {
+    height: 150px;
+    width: 300px;
+}
+
+.subs {
+    margin-left: 45%;
+    padding: 20px;
+}
+
+.subs>i {
+    border-radius: 50%;
+    background-color: rgb(178, 214, 230);
+    padding: 10px;
+}
+
+.subs>h3 {
+    margin-left: 10px;
+}
+
+.i1 {
+    height: 150px;
+    width: 200px;
+}
+
+.sub2main {
+    display: flex;
+    margin-top: 25px;
+    justify-content: space-around;
+}
+
+.sub3>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5>ul>h3 {
+    margin-top: 50px;
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub2 {
+    line-height: 40px;
+}
+
+.sub2>h1 {
+    margin-left: 10px;
+}
+
+.sub2>img {
+    margin-left: -30px;
+}
+
+.sub3 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub4 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.sub5 {
+    border-top: 1px solid black;
+    line-height: 30px;
+}
+
+.footer {
+    background-color: rgba(128, 128, 128, 0.386);
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.footer>p {
+    border-right: 1px solid;
+    height: 20px;
+}
+
+
+
+/* <footer css code end> */
+
+
+
+/* lalptop veiw */
+
+@media screen and (min-width:770px) and (max-width:1025px) {
+    .headf {
+        margin-left: 750px;
+    }
+
+    .header>button {
+        /* position: absolute; */
+        width: 80px;
+        margin-left: 930px;
+    }
+
+    .icon>i {
+        position: absolute;
+    }
+
+    .careerp1 {
+        left: 100px;
+        top: 400px;
+    }
+
+    .careerp2 {
+        left: 300px;
+        top: 450px;
+
+    }
+
+    .careerimg3,
+    .careerimg4,
+    .careerimg5,
+    .careerimg6,
+    .careerimg7 {
+        width: 500px;
+    }
+
+    .careerimg2 {
+        width: 800pxpx;
+    }
+
+    .careerh {
+        top: 1650px;
+
+        left: 150px;
+
+    }
+
+    .careerimg8,
+    .careerimg9,
+    .careerimg10,
+    .careerimg11 {
+
+        margin-right: -15px;
+        width: 100px;
+
+
+    }
+
+    .careercd{
+        /* width: 600px;
+        height: 400px;
+        margin-left: 210px; */
+        width: 98%;
+        margin-left: 5px;
+        
+    }
+    .careercdtwo{
+        width: 98%;
+        margin-left: 5px;
+    }
+
+    iframe {
+        width: 980px;
+    }
+
+    /* <footer> */
+   
+
+    .d2 {
+        margin-left: 20px;
+
+    }
+
+    .d3 {
+        margin-left: 30px;
+    }
+
+    .d4 {
+        margin-right: 50px;
+    }
+
+    .subs {
+        margin-left: 450px;
+    }
+      .nava>a{
+        margin-left: 20px;
+      }
+     .bt{
+        margin-left: 430px;
+        color: rgb(70, 70, 124);
+     }
+
+}
+
+/* <tabletview> */
+
+@media screen and (min-width:427px) and (max-width:769px) {
+
+
+    .headf {
+        margin-left: 600px;
+    }
+
+    .header>button {
+        /* position: absolute; */
+        width: 80px;
+        margin-left: 800px;
+    }
+
+    .header2>input {
+        margin-left: 40px;
+    }
+
+    .icon>i {
+        position: absolute;
+        right: -100px;
+    }
+
+    /* <career> */
+nav{
+    width: 109%;
+}
+.nava>a{
+    margin-left: 10px;
+}
+.careermain{
+    margin-left: 80px;
+}
+    .careerimg2 {
+        width: 110%;
+        margin-left: 10px;
+    }
+
+    .careerp1 {
+        top: 500px;
+        font-size: 25px;
+        left: 200px;
+    }
+
+    .careerp2 {
+        top: 450px;
+        font-size: 25px;
+        left: 300px;
+    }
+
+    .careertwo {
+        width: 700px;
+        padding: 0px;
+
+    }
+
+    .careerimg8,
+    .careerimg9,
+    .careerimg10,
+    .careerimg11 {
+        width: 100px;
+
+    }
+
+    .careerimg8 {
+        margin-left: -80px;
+    }
+
+
+    .careerimg9 {
+        margin-left: -80px;
+    }
+
+    .careerimg10 {
+        margin-left: -80px;
+    }
+
+    .careerimg11 {
+        margin-left: -80px;
+    }
+
+    h5 {
+        margin-left: -80px;
+    }
+
+    .careerimg12 {
+        margin-top: -100px;
+        width: 110%;
+        margin-left: 10px;
+    }
+
+    .careerh {
+        font-size: 30px;
+        top: 1450px;
+        left: 180px;
+    }
+
+    .main {
+        width: 700px;
+        margin-left: 20px;
+
+    }
+
+    iframe {
+        width: 700px;
+    }
+
+    .sub2main {
+        margin-left: 10px;
+    }
+    .careercd{
+        margin-left: 100px;
+    }
+    .careercd1{
+        width: 200px;
+        height: 300px;
+        margin-left: 20px;
+    }
+    .careercd1>img{
+        width: 200px;
+        height: 190px;
+    }
+    .careercd2{
+        width: 65%;
+    }
+    .group{
+        width: 115%;
+    }
+  iframe{
+    margin-left: 100px;
+  }
+  .images{
+    width: 115%;
+  }
+.main{
+    width: 103%;
+}
+.sub2main{
+    margin-left: 100px;
+}
+    /* <footer> */
+    .footer {
+        width: 115%;
+        /* font-size: 10px; */
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:426px) {
+
+
+    .headf {
+        margin-left: 280%;
+    }
+
+    .header>button {
+        width: 80px;
+        margin-left: 330%;
+    }
+
+    .header2>input {
+        width: 400px;
+        margin-left: 600px;
+    }
+
+    .icon>i {
+        position: absolute;
+        right: -1100px;
+    }
+
+    .careerimg2 {
+        width: 360%;
+        
+    }
+
+    .careerp1,
+    .careerp2 {
+        font-size: 35px;
+        top: 500px;
+        width: 300px;
+    }
+
+    nav {
+        width: 360%;
+
+    }
+    .group{
+        width: 360%;
+        margin-left: 20px;
+    }
+    .careervideo{
+        width: 120%;
+    }
+
+    .careertwo {
+
+        width: 1400px;
+
+
+    }
+
+    .careerimg12 {
+
+        width: 360%;
+
+    }
+    .careercd{
+        margin-left: 100px;
+    }
+
+    .careerh {
+        top: 2000px;
+        font-size: 40px;
+        width: 200%;
+        left: 400px;
+    }
+
+    iframe {
+        width: 300%;
+    }
+
+    .main {
+        display: block;
+        width: 260%;
+        padding: 100px;
+        margin-left: 170px;
+        font-size: 20px;
+    }
+
+    .sub2main {
+        display: block;
+        margin-left: 200px;
+        width: 220%;
+    }
+
+    .sub6main {
+        display: none;
+    }
+
+    .subs {
+        margin-left: 800px;
+        width: 100%;
+
+    }
+
+    .footer {
+        width: 370%;
+    }
+    .careerh{
+        position: absolute;
+        top: 1800px;
+    }
+    .careercd{
+        margin-left: 750px;
+    }
+    .careercd1{
+        margin-left: 100px;
+    }
+    .images{
+        width: 1600px;
+    }
+
+
+
+
+
+}
+
